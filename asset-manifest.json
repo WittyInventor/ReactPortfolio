@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.073c9b0a.css",
-    "main.js": "/ReactPortfolio/static/js/main.1dc3b1ac.js",
+    "main.css": "/ReactPortfolio/static/css/main.cbfb6658.css",
+    "main.js": "/ReactPortfolio/static/js/main.83adcecf.js",
     "static/js/787.e29dc422.chunk.js": "/ReactPortfolio/static/js/787.e29dc422.chunk.js",
-    "static/media/logo.svg": "/ReactPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/CodeHieroglyphs.jpg": "/ReactPortfolio/static/media/CodeHieroglyphs.58ea0d98fd1d4640746a.jpg",
+    "static/media/ecommerce.jpg": "/ReactPortfolio/static/media/ecommerce.a7b53c85edeb8966656a.jpg",
+    "static/media/Employees.jpg": "/ReactPortfolio/static/media/Employees.ebbc68c9a4735d726fca.jpg",
+    "static/media/AnnemarieSheridanResume.pdf": "/ReactPortfolio/static/media/AnnemarieSheridanResume.d499b83d2116cd7af79d.pdf",
+    "static/media/socialNetworkAPI.jpg": "/ReactPortfolio/static/media/socialNetworkAPI.de6b861a3055ab0f5088.jpg",
+    "static/media/Scheduler.jpg": "/ReactPortfolio/static/media/Scheduler.2fed3b2505c9857381e9.jpg",
+    "static/media/NoteTaker.jpg": "/ReactPortfolio/static/media/NoteTaker.65c363bc123fbc246de8.jpg",
+    "static/media/ProME.jpg": "/ReactPortfolio/static/media/ProME.e365cf9d055d64c68cd4.jpg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.073c9b0a.css.map": "/ReactPortfolio/static/css/main.073c9b0a.css.map",
-    "main.1dc3b1ac.js.map": "/ReactPortfolio/static/js/main.1dc3b1ac.js.map",
+    "main.cbfb6658.css.map": "/ReactPortfolio/static/css/main.cbfb6658.css.map",
+    "main.83adcecf.js.map": "/ReactPortfolio/static/js/main.83adcecf.js.map",
     "787.e29dc422.chunk.js.map": "/ReactPortfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1dc3b1ac.js"
+    "static/css/main.cbfb6658.css",
+    "static/js/main.83adcecf.js"
   ]
 }
