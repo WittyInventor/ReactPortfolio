@@ -31,8 +31,8 @@ N/A
   ## Questions: 
   email [link](https://github.com/wittyinventor 
 
-  ## Heroku link
-  https://annamarie-pwa-text-editor.herokuapp.com/
+  ## Github Pages link
+  https://wittyinventor.github.io/ReactPortfolio/
 
   
   ## Email: 
