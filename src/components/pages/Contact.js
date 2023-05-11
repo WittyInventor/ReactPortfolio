@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-
-
+import background from '../../Assets/DarkerYellowPic.jpg';
 
 function Contact() {
     const [alertmessage, setalertmessage]=useState('')
@@ -61,7 +60,9 @@ function Contact() {
 
 
     return (
-        <div className="contactMainContainer">
+        <div 
+        style={{ backgroundImage: `url(${background})`,backgroundRepeat:"no-repeat", backgroundSize: "cover"}}
+        className="contactMainContainer">
             <div className="contactFormContainer">
 
             <h4>Contact</h4>

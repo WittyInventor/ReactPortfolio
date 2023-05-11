@@ -3,12 +3,12 @@ import HeaderNav from './HeaderNav';
 import Footer from './Footer';
 
 import Resume from './pages/Resume';
-import About from './pages/About';
+import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 export default function Content() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
   //   useState means what page in this case we are using in that exact moment. if we change the useState variable, it will render all of the components.
   // render means to calculate and run the Content function information thats showing in the component in the function. Let's say we change the ('About') to Resume example, then it would render. 
 
@@ -26,7 +26,7 @@ export default function Content() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <About />;
+    return <Home />;
   };
 
   const handlePageChange = (page) => {

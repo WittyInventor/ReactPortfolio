@@ -1,16 +1,22 @@
 header {
   display: flex;
-  background-color:aquamarine;
+  background-color:  #eecf46;
   height: 80px;
+  justify-content: center;
+  border-bottom-left-radius: 48%;
+  border-bottom-right-radius: 48%;
+  position: absolute;
+  width: 100%;
+  opacity: 0.8;
 }
 
 .headernav-namecontainer {
-    width: 30%;
+   
     padding-left: 30px;
 }
 
 .navcontainer {
-  width: 70%;
+
   align-items: center;
 }
 
@@ -28,6 +34,10 @@ header {
 
 .nav-item a{
   color: #000;
+}
+
+.nav-item {
+  padding: 30px;
 }
 
 .bodycontainer {
@@ -54,26 +64,46 @@ footer a svg {
   color: blue
 }
 
+.homeMainContainer, .contactMainContainer {
+  height: 100%;
+  background-position: center;
+}
+
 .routercontainer{
   height: calc(100% - 140px);
   overflow: auto;
-  padding: 60px;
   box-sizing: border-box;
 }
+
 
 
 .routercontainer h4 {
   font-size: 20px;
   font-family:fantasy;
+  margin: 0;
+  padding: 20px;
 }
 
-.contactMainContainer img {
-    width: 150px;
-    border-radius: 18px;
+.homeMainContainer img {
+    width: 250px;
+    border-radius: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.contactMainContainer p {
+.homeMainContainer p {
     text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#eecf46bf;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.homeContentContainer {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
 }
 
 .portfolioMainContainer .imageholders {
@@ -123,4 +153,11 @@ iframe {
   justify-content: center;
   /* width: 80%; */
   height: 170%;
+}
+
+.contactMainContainer, 
+.portfolioMainContainer,
+.homeMainContainer {
+  padding-top: 50px;
+  
 }

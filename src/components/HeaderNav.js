@@ -5,7 +5,6 @@ function HeaderNav({ currentPage, handlePageChange
   return (
     <header>
 
-      <div className ='headernav-namecontainer'><h1>Annemarie Sheridan</h1></div>
 
       <div className='navcontainer'> <ul className="nav-tabs">
       <li className="nav-item">
@@ -15,7 +14,7 @@ function HeaderNav({ currentPage, handlePageChange
             handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Home
 
           {/* //* nav-link's job is to distinguish the active links from the non active one */}
         </a>
@@ -40,18 +39,9 @@ function HeaderNav({ currentPage, handlePageChange
           Contact
         </a>
       </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
-
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-      </li>
+      
     </ul></div>
-
+      <div className='placeholder4Layout'></div>
     </header>
   
 
